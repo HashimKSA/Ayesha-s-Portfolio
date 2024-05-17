@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Ayesha's Portfolio</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/320fcd898f.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Digital Marketer</p>
+                <h1>Hi, I'm <span>Ayesha Amjad</span><br>from Pakistan</h1>
+            </div>
+        </div>
+    </div>  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Bg1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey everyone! So, I've been diving deep into the world of digital marketing and social media lately, and let me tell you, it's a game-changer for businesses! 
+                        With platforms like Facebook and Google Ads, you can really amp up your online presence and connect with your target audience in a whole new way. 🤯
+                        It's not just about pushing sales, though. It's about creating engaging content, building relationships, and providing value to your audience. 
+                        Trust me, when you find that sweet spot, you'll see your brand awareness skyrocket and those sales rolling in. 
+                        So, let's harness the power of digital marketing together and make your business shine!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Digital Marketing</span><br>Social Media Marketing</li>
+                            <li><span>Lead Generation</span><br>Search Engine Optimization (SEO)</li>
+                            <li><span>Product Marketing</span><br>Content Strategy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Born after 1990</span><br>Went to School until 2011</li>
+                            <li><span>Girl since 1990</span><br>Internship at local Food lab 2022 - 2023</li>
+                            <li><span>Digital marketing since 2024</span><br>Business since June 2023</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Studied Matric from school</span><br>Studied FSC from college</li>
+                            <li><span>Studied bachelors from a university</span><br>Studied Digital Marketing online</li>
+                            <li><span>Read novels</span><br>Read autobiographys of successful people</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-business-time"></i>
+                <h2>Business Growth</h2>
+                <p>I will see to the end that your business has immense growth and you get to experience the joy I feel as a successful business owner</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <h2>More Money</h2>
+                <p>I will see to the end that your business yeilds shit ton of money and the next time you require my services, I can charge you more.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-person"></i>
+                <h2>Find Partner</h2>
+                <p>Now that you get successful after using my services, the right partner will come to your life after seeing your success</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/f4.jpg">
+                <div class="layer">
+                    <h3>Ecommerce Website</h3>
+                    <P>You can buy high-quality and carefully handcrafted products made from Clay</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/f25.jpg">
+                <div class="layer">
+                    <h3>LeadX</h3>
+                    <P>You can buy high-quality services tailored specifically for the growth of your websit</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/f29.jpg">
+                <div class="layer">
+                    <h3>Good Human</h3>
+                    <P>I also happen to be a very good and kind human, I won't be your friend but talking to me will be nice? I don't know what I'm writing anymore.</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> Aishaamjad909@gmail.com</p>
+                <P><i class="fas fa-phone-square-alt"></i> 03372737232</P>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Ayesha. Made by Hashim</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+        
+    function opentab(tabname){
+       for(tablink of tablinks){
+           tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+
+<script>
+
+    var sidemenu = document.getElementById(sidemenu)
+
+    function openmenu() {
+        sidemeu.style.right = "0"
+    }
+
+    function closemenu() {
+        sidemeu.style.right = "-200px"
+    }
+</script>
+
+  
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwlv5AI-GfeKTZsvDUU4Id-2RSn_9GxGiXVIsbgEnRlQTBVE04XEd7jn8UVbfnr5UKhjQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+
+
+
+
+</body>
+</html>
